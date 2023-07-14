@@ -2,7 +2,7 @@
 使用方式: 直接用python執行，如: python3 DP_sorting.py
 
 可修改參數: 
-  min: 資料最小值，預設為0
+  min: 資料最小值，預設為0\n
   max: 資料最大值，預設為1023
   case_num: 資料個數，預設為3000
   epsilon: DP強度，數值越小越安全，預設為0.05
