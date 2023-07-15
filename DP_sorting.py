@@ -55,7 +55,7 @@ for i in range(0,case_num):
 # Check scores
 print('DP with sort: ',n1)
 print('DP without sort: ',n2)
-with open('NPoutput.csv', 'w', newline='') as csvfile:
+with open('DPoutput.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(bnum)
     writer.writerow(num_ans)
