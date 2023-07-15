@@ -21,3 +21,11 @@
 輸出分數為每個DP後的值和原數值的差絕對值後的和  
 並計算其中可能因Overflow所產生的較大變化總值，其定義為若差>資料range/2則該筆資料發生Overflow  
 會將各種執行結果的分數寫入DPcompare.csv
+
+# 測試結果  
+下圖為有預防overflow的情況，extra值為可能發生overflow的資料佔量  
+![image](https://github.com/cislab-ntut/DP_sorting/assets/62545842/642f2177-02e2-4b5e-86ff-783bdbe0b47c)
+
+下圖則是不預防overflow，可發現epsilon影響量變化不大  
+![image](https://github.com/cislab-ntut/DP_sorting/assets/62545842/bebb334d-8e07-4bc4-bcb7-6655605cafaf)
+
