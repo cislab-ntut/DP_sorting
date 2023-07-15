@@ -1,0 +1,11 @@
+cases,sorted,unsort
+epsilon = 1,1293.0,2844.0
+epsilon = 0.1,4687.0,30652.0
+epsilon = 0.05,7629.0,60857.0
+epsilon = 0.02,25858.0,150537.0
+epsilon = 0.01,74506.0,305039.0
+"Double range, epsilon = 1",1740.0,2814.0
+"Double range, epsilon = 0.1",6666.0,30123.0
+"Double range, epsilon = 0.05",9345.0,60169.0
+"Double range, epsilon = 0.02",20225.0,147640.0
+"Double range, epsilon = 0.01",45375.0,282266.0
