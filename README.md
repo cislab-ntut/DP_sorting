@@ -23,7 +23,7 @@
 會將各種執行結果的分數寫入DPcompare.csv
 
 # 測試結果  
-下圖為有預防overflow的情況，extra值為可能發生overflow的資料佔量  
+下表為有預防overflow的情況，extra值為可能發生overflow的資料佔量  
 | cases | sorted | unsort | sorted extra | unsort extra |
 | --- | --- | --- | --- | --- |
 | epsilon = 1 | 3107.0 | 7048.0 | 0 | 4088.0 |
@@ -37,6 +37,17 @@
 | Double range, epsilon = 0.02 | 21414.0 | 294273.0 | 0 | 150860.0 |
 | Double range, epsilon = 0.01 | 25447.0 | 528682.0 | 0 | 248456.0 |
 
-下圖則是不預防overflow，可發現epsilon影響量變化不大  
-![image](https://github.com/cislab-ntut/DP_sorting/assets/62545842/bebb334d-8e07-4bc4-bcb7-6655605cafaf)
+下表則是不預防overflow，可發現和上表相比，epsilon影響量變化不大  
+| cases | sorted | unsort |
+| --- | --- | --- |
+| epsilon = 1 | 1293.0 | 2844.0 |
+| epsilon = 0.1 | 4687.0 | 30652.0 |
+| epsilon = 0.05 | 7629.0 | 60857.0 |
+| epsilon = 0.02 | 25858.0 | 150537.0 |
+| epsilon = 0.01 | 74506.0 | 305039.0 |
+| Double range, epsilon = 1 | 1740.0 | 2814.0 |
+| Double range, epsilon = 0.1 | 6666.0 | 30123.0 |
+| Double range, epsilon = 0.05 | 9345.0 | 60169.0 |
+| Double range, epsilon = 0.02 | 20225.0 | 147640.0 |
+| Double range, epsilon = 0.01 | 45375.0 | 282266.0 |
 
