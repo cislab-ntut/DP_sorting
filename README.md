@@ -24,7 +24,18 @@
 
 # 測試結果  
 下圖為有預防overflow的情況，extra值為可能發生overflow的資料佔量  
-![image](https://github.com/cislab-ntut/DP_sorting/assets/62545842/642f2177-02e2-4b5e-86ff-783bdbe0b47c)
+| cases | sorted | unsort | sorted extra | unsort extra |
+| --- | --- | --- | --- | --- |
+| epsilon = 1 | 3107.0 | 7048.0 | 0 | 4088.0 |
+| epsilon = 0.1 | 10035.0 | 61830.0 | 0 | 32049.0 |
+| epsilon = 0.05 | 9022.0 | 119819.0 | 0 | 63505.0 |
+| epsilon = 0.02 | 13153.0 | 283886.0 | 0 | 148312.0 |
+| epsilon = 0.01 | 16169.0 | 492302.0 | 0 | 265764.0 |
+| Double range, epsilon = 1 | 4133.0 | 7025.0 | 0 | 4092.0 |
+| Double range, epsilon = 0.1 | 11197.0 | 53864.0 | 0 | 24254.0 |
+| Double range, epsilon = 0.05 | 30467.0 | 130004.0 | 0 | 72152.0 |
+| Double range, epsilon = 0.02 | 21414.0 | 294273.0 | 0 | 150860.0 |
+| Double range, epsilon = 0.01 | 25447.0 | 528682.0 | 0 | 248456.0 |
 
 下圖則是不預防overflow，可發現epsilon影響量變化不大  
 ![image](https://github.com/cislab-ntut/DP_sorting/assets/62545842/bebb334d-8e07-4bc4-bcb7-6655605cafaf)
